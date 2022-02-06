@@ -4,7 +4,7 @@
 ---
 ## Team Members:-
 - [Mohammed Ghassan](https://github.com/MohammedAbuSamra)
-## Why we created this website?
+## Why we create this website?
 
 
 ## What is Finance App?
