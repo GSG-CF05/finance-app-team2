@@ -4,8 +4,173 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Montserrat Font From Google Fonts library. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize library to render all the elements normally in the browser's window. -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!-- The main CSS style sheet. -->
     <link rel="stylesheet" href="assets/css/home.css" />
     <title>Home</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <section class="container">
+        <p class="time">9:41</p>
+        <div class="icons">
+          <i class="fas fa-signal signal"></i>
+          <i class="fas fa-wifi wifi"></i>
+          <i class="fas fa-battery-full battery"></i>
+        </div>
+        <div class="info">
+          <img
+            src="assets/images/ProfilePic@2x.svg"
+            alt="Profile Picture"
+            style="width: 50px"
+            class="profile-picture"
+          />
+          <h3>Hi, Lou</h3>
+          <p>Welcome back!</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="balance-container">
+        <img
+          src="assets/images/CurrencyCrushCoins.svg"
+          alt="Currency Picture."
+          style="width: 132px"
+          class="currency-picture"
+        />
+        <div class="your-balance">
+          <p>Your balance</p>
+          <div class="money">
+            <p>$7,056.00</p>
+            <i class="fas fa-chevron-right right-arrow"></i>
+          </div>
+          <div class="wallet">
+            <img
+              src="assets/images/wallet.svg"
+              alt="Wallet picture."
+              style="width: 24px"
+              class="wallet"
+            />
+            <p>Wallet</p>
+            <i class="fas fa-chevron-right right-arrow"></i>
+          </div>
+        </div>
+      </section>
+      <section class="send-container">
+        <img
+          src="assets/images/mail-send.svg"
+          alt="Send icon"
+          style="width: 30.19px"
+          class="send"
+        />
+        <p>Send</p>
+      </section>
+      <section class="request-container">
+        <img
+          src="assets/images/request.svg"
+          alt="Request Icon"
+          style="width: 36.92px"
+          class="request"
+        />
+        <p>Request</p>
+      </section>
+      <section class="more-container">
+        <img
+          src="assets/images/options.svg"
+          alt="More Icon."
+          style="width: 30.77px"
+          class="more"
+        />
+        <p>More</p>
+      </section>
+      <section class="last-activity-container">
+        <p>Your Last Activity</p>
+        <div class="head">
+          <h3>Your Last Activity</h3>
+          <p>Today</p>
+          <i class="fas fa-chevron-down down-arrow"></i>
+        </div>
+        <div class="shopping">
+          <img
+            src="assets/images/Shopping.svg"
+            alt="Shopping Cart Image."
+            style="width: 24px"
+            class="shopping-icon"
+          />
+          <p>Shopping</p>
+          <p>$120,000</p>
+        </div>
+        <div class="food">
+          <img
+            src="assets/images/shopping-cart-ecommerce.svg"
+            alt="Shopping Cart"
+            style="width: 24px"
+            class="shopping-cart-icon"
+          />
+          <p>Food</p>
+          <p>$55,000</p>
+        </div>
+        <div class="Taxi">
+          <img
+            src="assets/images/room.svg"
+            alt="Location Icon."
+            style="width: 24px"
+            class="location-icon"
+          />
+          <p>Taxi</p>
+          <p>@12,000</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="home">
+        <img
+          src="assets/images/home.svg"
+          alt="Home Icon."
+          style="width: 24px"
+          class="footer-home-icon"
+        />
+        <p>Home</p>
+      </div>
+      <div class="activity">
+        <img
+          src="assets/images/activity.svg"
+          alt="Activity Icon."
+          style="width: 24px"
+          class="activity-icon"
+        />
+        <p>Activity</p>
+      </div>
+      <div class="statistics">
+        <img
+          src="assets/images/statistics.svg"
+          alt="Statistics Icon."
+          style="width: 24px"
+          class="statistics-icon"
+        />
+        <p>Statistics</p>
+      </div>
+      <img
+        src="assets/images/HomeIndicator.svg"
+        alt="Home Indicator Image."
+        style="width: 134px"
+        class="home-indicator"
+      />
+    </footer>
+  </body>
 </html>
