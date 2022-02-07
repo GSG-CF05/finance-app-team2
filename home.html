@@ -26,7 +26,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="header-container">
         <div class="top-bar">
           <p class="time">9:41</p>
           <div class="icons">
@@ -42,10 +42,12 @@
             style="width: 50px"
             class="profile-picture"
           />
-          <h3>Hi, Lou</h3>
-          <div class="header-last-row">
-            <p>Welcome back!</p>
-            <i class="fas fa-ellipsis-h three-dots"></i>
+          <div class="info-text">
+            <h3>Hi, Lou</h3>
+            <div class="header-last-row">
+              <p>Welcome back!</p>
+              <i class="fas fa-ellipsis-h three-dots"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -58,11 +60,13 @@
           style="width: 132px"
           class="currency-picture"
         />
-        <div class="your-balance">
-          <p>Your balance</p>
-          <div class="money shared">
-            <p>$7,056.00</p>
-            <i class="fas fa-chevron-right right-arrow"></i>
+        <div class="balance-wallet-container">
+          <div class="your-balance">
+            <p>Your balance</p>
+            <div class="money shared">
+              <p>$7,056.00</p>
+              <i class="fas fa-chevron-right right-arrow"></i>
+            </div>
           </div>
           <div class="wallet shared">
             <img
@@ -78,67 +82,68 @@
           </div>
         </div>
       </section>
-      <section class="send-container">
-        <a href="money.html" class="money-page">
+      <div class="actions-container">
+        <section class="send-container action">
+          <a href="money.html" class="money-page">
+            <img
+              src="assets/images/send-icon.svg"
+              alt="Send icon"
+              style="width: 60.69px"
+              class="send"
+            />
+            <p>Send</p>
+          </a>
+        </section>
+        <section class="request-container action">
           <img
-            src="assets/images/mail-send.svg"
-            alt="Send icon"
-            style="width: 30.19px"
-            class="send"
+            src="assets/images/request-icon.svg"
+            alt="Request Icon"
+            style="width: 60.69px"
+            class="request"
           />
-          <p>Send</p>
-        </a>
-      </section>
-      <section class="request-container">
-        <img
-          src="assets/images/request.svg"
-          alt="Request Icon"
-          style="width: 36.92px"
-          class="request"
-        />
-        <p>Request</p>
-      </section>
-      <section class="more-container">
-        <img
-          src="assets/images/options.svg"
-          alt="More Icon."
-          style="width: 30.77px"
-          class="more"
-        />
-        <p>More</p>
-      </section>
+          <p>Request</p>
+        </section>
+        <section class="more-container action">
+          <img
+            src="assets/images/more-icon.svg"
+            alt="More Icon."
+            style="width: 60.69px"
+            class="more"
+          />
+          <p>More</p>
+        </section>
+      </div>
       <section class="last-activity-container">
-        <p>Your Last Activity</p>
-        <div class="head">
-          <h3>Your Last Activity</h3>
+        <div class="first-row activity-shared">
+          <p class="p-bold">Your Last Activity</p>
           <p>Today</p>
           <i class="fas fa-chevron-down down-arrow"></i>
         </div>
-        <div class="shopping">
+        <div class="shopping activity-shared">
           <img
             src="assets/images/Shopping.svg"
             alt="Shopping Cart Image."
-            style="width: 24px"
+            style="width: 30px"
             class="shopping-icon"
           />
           <p>Shopping</p>
           <p>$120,000</p>
         </div>
-        <div class="food">
+        <div class="food activity-shared">
           <img
             src="assets/images/shopping-cart-ecommerce.svg"
             alt="Shopping Cart"
-            style="width: 24px"
+            style="width: 30px"
             class="shopping-cart-icon"
           />
           <p>Food</p>
           <p>$55,000</p>
         </div>
-        <div class="Taxi">
+        <div class="taxi activity-shared">
           <img
             src="assets/images/room.svg"
             alt="Location Icon."
-            style="width: 24px"
+            style="width: 30px"
             class="location-icon"
           />
           <p>Taxi</p>
@@ -174,7 +179,7 @@
             class="statistics-icon"
           />
           <p>Statistics</p>
-        </div>
+        </div class>
         <img
           src="assets/images/HomeIndicator.svg"
           alt="Home Indicator Image."
