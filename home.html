@@ -50,7 +50,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container">
       <section class="balance-container">
         <img
           src="assets/images/CurrencyCrushCoins.svg"
@@ -60,11 +60,11 @@
         />
         <div class="your-balance">
           <p>Your balance</p>
-          <div class="money">
+          <div class="money shared">
             <p>$7,056.00</p>
             <i class="fas fa-chevron-right right-arrow"></i>
           </div>
-          <div class="wallet">
+          <div class="wallet shared">
             <img
               src="assets/images/wallet.svg"
               alt="Wallet picture."
@@ -72,18 +72,22 @@
               class="wallet"
             />
             <p>Wallet</p>
-            <i class="fas fa-chevron-right right-arrow"></i>
+            <a href="wallet.html" class="wallet">
+              <i class="fas fa-chevron-right right-arrow"></i>
+            </a>
           </div>
         </div>
       </section>
       <section class="send-container">
-        <img
-          src="assets/images/mail-send.svg"
-          alt="Send icon"
-          style="width: 30.19px"
-          class="send"
-        />
-        <p>Send</p>
+        <a href="money.html" class="money-page">
+          <img
+            src="assets/images/mail-send.svg"
+            alt="Send icon"
+            style="width: 30.19px"
+            class="send"
+          />
+          <p>Send</p>
+        </a>
       </section>
       <section class="request-container">
         <img
@@ -143,39 +147,41 @@
       </section>
     </main>
     <footer>
-      <div class="home">
+      <div class="container">
+        <div class="home">
+          <img
+            src="assets/images/home.svg"
+            alt="Home Icon."
+            style="width: 24px"
+            class="footer-home-icon"
+          />
+          <p>Home</p>
+        </div>
+        <div class="activity">
+          <img
+            src="assets/images/activity.svg"
+            alt="Activity Icon."
+            style="width: 24px"
+            class="activity-icon"
+          />
+          <p>Activity</p>
+        </div>
+        <div class="statistics">
+          <img
+            src="assets/images/statistics.svg"
+            alt="Statistics Icon."
+            style="width: 24px"
+            class="statistics-icon"
+          />
+          <p>Statistics</p>
+        </div>
         <img
-          src="assets/images/home.svg"
-          alt="Home Icon."
-          style="width: 24px"
-          class="footer-home-icon"
+          src="assets/images/HomeIndicator.svg"
+          alt="Home Indicator Image."
+          style="width: 134px"
+          class="home-indicator"
         />
-        <p>Home</p>
       </div>
-      <div class="activity">
-        <img
-          src="assets/images/activity.svg"
-          alt="Activity Icon."
-          style="width: 24px"
-          class="activity-icon"
-        />
-        <p>Activity</p>
-      </div>
-      <div class="statistics">
-        <img
-          src="assets/images/statistics.svg"
-          alt="Statistics Icon."
-          style="width: 24px"
-          class="statistics-icon"
-        />
-        <p>Statistics</p>
-      </div>
-      <img
-        src="assets/images/HomeIndicator.svg"
-        alt="Home Indicator Image."
-        style="width: 134px"
-        class="home-indicator"
-      />
     </footer>
   </body>
 </html>
