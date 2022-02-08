@@ -1,9 +1,10 @@
 /* Start General Styles */
-html {
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
 body {
-  min-height: 100%;
+  height: 100vh;
+  width: 100%;
   font-family: sans-serif;
 }
 /* End General Styles */
@@ -194,6 +195,13 @@ main.container .balance-container .wallet.shared {
 }
 .last-activity-container .first-row .p-bold {
   font-weight: 700;
+  margin: 10px 0;
+}
+.last-activity-container .first-row .p-bold + p {
+  margin: 10px 0;
+}
+.last-activity-container .first-row .p-bold + p + i {
+  margin: 10px 0;
 }
 /* End last activity container */
 
@@ -211,6 +219,7 @@ footer .container {
   right: 0;
   border-radius: 10px 10px 0 0;
   box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 24%);
+  padding: 10px;
 }
 footer .container .home {
   grid-area: 1 / 1 / 2 / 2;
@@ -246,3 +255,25 @@ footer .container .home-indicator {
   margin: 0 auto;
 }
 /* Start Footer */
+
+/* End media query for the desktop screens */
+@media only screen and (min-width: 720px) {
+  body {
+    font-size: large;
+  }
+  footer .container {
+    bottom: -235px
+  }
+}
+/* End media query for the desktop screens */
+
+/* Start media query for the desktop screens */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: larger;
+  }
+  footer .container {
+    bottom: -235px;
+  }
+}
+/* End media query for the desktop screens */
