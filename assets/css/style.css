@@ -1,81 +1,82 @@
-
-.container{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .container {
+    width: 100%;
+  }
+  
+  header {
+    margin: 4rem;
     text-align: center;
-    position:absolute;
-}
-h4{
-   font-family: "Montserrat";
-   font-size: 24px;
-   font-style:normal;
-   font-weight: 800;
-   line-height: 26px;
-   letter-spacing: -0.5px;
-   text-align: center;
-   margin: 64px 0px;
-   align-items: center;
-   color: #191D21;
-   margin-top: 55px;
-   
-}
-
-
-img{
-    position: static;
-    width: 462px;
-    height: 341px;
-    left: 0px;
-    top: 0px; 
-    margin:32px 0px;
-}
-
-h2{
-    font-family: "Montserrat";
-    font-Weight:500;
-    font-style: normal;
-    size: 24px;
-    line-height: 25.92px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    letter-spacing: -0.5px;
-    color: #191D21;
-}
-
-.text{
-    
-    font-family: "Montserrat";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.5px;
+    margin-bottom: 5rem;
     text-align: center;
-    margin: 16px 0px;
-    left: 17.95%;
-    right: 17.95%;
-    top:53.4%;
-    
- 
-   
-}
-
-.continue{
-    background-color: #6F6CD9;
-    height: 32px;
-    width: 305px;
-    left: 16.99%;
-    right: 16.99%;
-    top: 630px;
-    border-radius: 4px;
-    padding: 8px, 12px, 8px, 12px;
-    margin: 64px 0px;
-
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0px;
+  }
+  .flex h2 {
+    margin-bottom: 2rem;
+  }
+  .flex p {
+    line-height: 1.5rem;
+  }
+  .img {
     text-align: center;
-    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .button {
+    background-color: #6f6cd9;
+    border: none;
     color: white;
-}
-
+    padding: 1rem 7rem;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn {
+    text-align: center;
+  }
+  
+  @media (min-width: 1000px) {
+    body{
+        overflow: hidden;
+    }
+      .container {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+    }
+    .left-side .board-pic {
+      width: 500px;
+      margin-right: 4rem;
+    }
+    .right-side {
+      width: 100%;
+      padding-top: 7rem;
+      margin-left: 3rem;
+      background-color: #ffd401;
+    }
+    .right-side h2 {
+        font-size: 2rem;
+    }
+    .para {
+      font-size: 2rem;
+      margin: 3rem;
+    }
+    .para p {
+      padding: 1rem;
+    }
+    .button{
+        background-color: #ff716f;
+        color: black;
+    }
+  }
+  
