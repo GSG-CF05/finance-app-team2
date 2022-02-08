@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  .top-bar.container {
+    padding: 1.6rem;
+  }
+  .header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section {
+    width: 100%;
+  }
+  .card {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #191d21;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card-number {
+    width: 80%;
+  }
+  .header-side {
+    font-size: 12px;
+    line-height: 2rem;
+  }
+  .number-size {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .curr-balance {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .flex {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .credit-card {
+    background-color: #f5d4c1;
+  }
+  .exp-date{
+    font-weight: 700;
+  }
+  .content {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
