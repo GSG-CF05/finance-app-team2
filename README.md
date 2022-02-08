@@ -1,6 +1,6 @@
 # financy app!
 
-## You can check out the app from [HERE](https://gsg-cf05.github.io/finance-app-team2/)>
+## You can check out the app from [HERE](https://gsg-cf05.github.io/finance-app-team2/)
 
 ---
 
