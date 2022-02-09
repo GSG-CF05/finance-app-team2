@@ -4,8 +4,148 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/wallet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Wallet</title>
+    <link rel="stylesheet" href="assets/css/wallet.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="content">
+      <header class="header">
+        <div class="top-bar flex">
+          <img src="assets/images/arrow.svg" alt="arrow" />
+          <h2>Your wallet</h2>
+          <div class="right-side">
+            <img src="assets/images/user.svg" alt="user" />
+            <img src="assets/images/more.svg" alt="more" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="cards">
+          <div class="container">
+            <div class="card visa">
+              <div class="balance flex">
+                <div class="header-side">
+                  <p class="curr-balance">Current Balance</p>
+                  <p class="number-size">$3,360.00</p>
+                </div>
+                <img src="assets/images/visa.svg" alt="Visa" />
+              </div>
+              <div class="card-number number-size flex">
+                <p>****</p>
+                <p>****</p>
+                <p>****</p>
+                <p>2360</p>
+              </div>
+              <div class="holder-name flex">
+                <p>Mohammed Ghassan</p>
+                <p>Exp.Date <span class="exp-date">09/23</span></p>
+              </div>
+            </div>
+            <div class="card credit-card">
+              <div class="balance flex">
+                <div class="header-side">
+                  <p class="curr-balance">Current Balance</p>
+                  <p class="number-size">$7,065,00</p>
+                </div>
+                <img src="assets/images/credit.svg" alt="credit-card" />
+              </div>
+              <div class="card-number number-size flex">
+                <p>****</p>
+                <p>****</p>
+                <p>****</p>
+                <p>2360</p>
+              </div>
+              <div class="holder-name flex">
+                <p>Mohammed Ghassan</p>
+                <p>Exp.Date <span class="exp-date">07/26</span></p>
+              </div>
+            </div>
+            <div class="card american-express">
+              <div class="balance flex">
+                <div class="header-side">
+                  <p class="curr-balance">Current Balance</p>
+                  <p class="number-size">$935,33</p>
+                </div>
+                <img src="assets/images/american.svg" alt="american-express" />
+              </div>
+              <div class="card-number number-size flex">
+                <p>****</p>
+                <p>****</p>
+                <p>****</p>
+                <p>2360</p>
+              </div>
+              <div class="holder-name flex">
+                <p>Mohammed Ghassan</p>
+                <p>Exp.Date <span class="exp-date">10/25</span></p>
+              </div>
+            </div>
+            <div class="card paypal">
+              <div class="balance flex">
+                <div class="header-side">
+                  <p class="curr-balance">Current Balance</p>
+                  <p class="number-size">$9,351,00</p>
+                </div>
+                <img
+                  src="assets/images/paypal.svg"
+                  alt="paypal"
+                  width="100px"
+                />
+              </div>
+              <div class="card-number number-size flex">
+                <p>****</p>
+                <p>****</p>
+                <p>****</p>
+                <p>7350</p>
+              </div>
+              <div class="holder-name flex">
+                <p>Mohammed Ghassan</p>
+                <p>Exp.Date <span class="exp-date">10/25</span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="add-button">
+          <p>+</p>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <a href="#">
+            <div class="icon">
+              <img src="assets/images/home.svg" alt="home" width="30px" />
+              <p class="tab home">Home</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <img
+                src="assets/images/acticity.svg"
+                alt="activity"
+                width="30px"
+              />
+              <p class="tab">Acticity</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <img
+                src="assets/images/statistics.svg"
+                alt="statistics"
+                width="30px"
+              />
+              <p class="tab">Statistics</p>
+            </div>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
