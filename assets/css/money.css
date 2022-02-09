@@ -115,21 +115,6 @@
 
 /* Start the responsive media queries for the desktop. */
 @media only screen and (min-width: 1024px) {
-  /* .content {
-    height: 100vh;
-    max-width: 100%;
-  }
-  .top-bar.flex {
-    width: 100%;
-  }
-
-  .amount input {
-    width: 60%;
-  }
-  .amount button {
-    width: 60%;
-    margin-bottom: 2em;
-  } */
   .credit-card {
     padding: 4em;
   }
