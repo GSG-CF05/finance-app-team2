@@ -89,3 +89,50 @@
   font-size: 1.3em;
   font-weight: 600;
 }
+
+/* Start the responsive media queries for the tablet. */
+@media only screen and (min-width: 720px) {
+  .content {
+    height: 100vh;
+    max-width: 100%;
+  }
+  .top-bar.flex {
+    width: 100%;
+  }
+  .amount {
+    width: 100%;
+  }
+  .amount input {
+    width: 60%;
+  }
+  .amount button {
+    width: 60%;
+    margin-bottom: 2em;
+  }
+}
+/* End the responsive media queries for the tablet. */
+
+
+/* Start the responsive media queries for the desktop. */
+@media only screen and (min-width: 1024px) {
+  .credit-card {
+    padding: 4em;
+  }
+  .top-bar.flex img {
+    width: 10%;
+    height: 5vh;
+  }
+  .top-bar.flex h2 {
+    font-size: 2em;
+  }
+  .amount > img {
+    width: 30%;
+    height: 20vh;
+  }
+  .amount .name,
+  .amount .balance {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+}
+/* End the responsive media queries for the desktop. */
