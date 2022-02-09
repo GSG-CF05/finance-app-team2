@@ -19,7 +19,7 @@ The aim of this application is to make tracking the money easier and cooler, the
 - Easy, fast, and user-friendly.
 - Checking your credit cards balances and investment accounts.
 
-## What is Finance App?
+## What is Financy App?
 
 **_Project Description:_**
 The application is for managing your financial flows, income, expenses, investment, and credit cards in a single software platform.
